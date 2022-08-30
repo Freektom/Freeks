@@ -1,0 +1,71 @@
+<style>
+
+*{margin: 0;padding: 0;box-sizing: border-box; font-family: sans-serif;}
+
+
+
+body{
+  height:100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+p {
+  font-size: 21px;
+}
+
+.background_image{
+  background-image:fondu.jpg();
+}
+
+.capa {
+  width:50%;
+  height:83vh;
+  position: absolute;
+
+}
+
+.parrafo{
+
+  z-index: 1;
+  weight: 540px;
+  height:440px;
+  padding: 20px 20px;
+  font-size: 15px;
+  line-height: 1.5;
+  border-radius: 5px;
+
+}
+.parrafo img{
+  width: 310px;
+  border-radius: 0px;
+  float:left;
+  margin-right: 15px;
+}
+
+body {
+background-image: url('fondu.JPEG');
+background-repeat: no-repeat;
+background-color :#a816ff;
+background-attachment: fixed;
+background-size: cover;
+background-repeat: no-repeat;
+overflow: hidden;
+height: 100vh;
+}
+
+ul.horizontal li{
+display:block;
+float:left;
+padding:0 10px;
+}
+
+li {
+  display: inline;
+  padding-bottom: 685px;
+}
+
+</style>
