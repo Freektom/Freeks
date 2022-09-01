@@ -1,4 +1,4 @@
-<style>
+
 
 *{margin: 0;padding: 0;box-sizing: border-box; font-family: sans-serif;}
 
@@ -12,6 +12,14 @@ body{
 
 }
 
+.menu{
+  padding-top: 7px;;
+  font-size: 30px;
+}
+
+.menu:hover{
+  background-color: red;
+}
 
 p {
   font-size: 21px;
@@ -23,7 +31,7 @@ p {
 
 .capa {
   width:50%;
-  height:83vh;
+  height:3vh;
   position: absolute;
 
 }
@@ -57,15 +65,13 @@ overflow: hidden;
 height: 100vh;
 }
 
-ul.horizontal li{
+div.horizontal div{
 display:block;
 float:left;
 padding:0 10px;
 }
 
-li {
+div {
   display: inline;
   padding-bottom: 685px;
 }
-
-</style>
