@@ -1,15 +1,9 @@
-.Galeria {
-  margin:10px 50px;
-}
+body {
 
-.Galeria img {
-  transition: 1s;
-  padding: 15px;
-  width: 200px;
-}
 
-.Galeria img: hover {
-  filter: grayscale(100%);
-  transform: scale(1.1);
-
+background-image: url("fondo.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
